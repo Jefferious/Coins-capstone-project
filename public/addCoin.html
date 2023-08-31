@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Glorious coins</title>
+</head>
+<body>
+    <header>
+        <h2>My coins!</h2>
+        <nav>
+            <a href="./index.html">Coins</a>
+            <a href="./addCoin.html">Add coin</a>
+        </nav>
+    </header>
+    <h1>Add Coin</h1>
+
+    <form id="coin-form">
+        <input id="coin-name" type="text" placeholder="Name of coin">
+        <input id="picture-link" type="text" placeholder="Paste URL of coin picture">
+        <input id="coin-price" type="number" placeholder="Price paid">
+        <textarea id="coin-desc" rows="6" type="text" placeholder="Description of coin"></textarea>
+        <button>Add Coin!</button>
+    </form>
+
+    <div class="coin-container">
+        
+    </div>
+    
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="./addCoin.js"></script>
+</body>
+</html>
